@@ -89,16 +89,6 @@ Manages edit dialog state and temporary data:
 const personalDialog = useEditDialog(personalData);
 ```
 
-### **useApi Hook** (Ready for Backend Integration)
-Manages API calls with loading states and error handling:
-
-```javascript
-const { data, loading, error, execute } = useApi(
-  () => studentService.getProfile(),
-  { autoExecute: true }
-);
-```
-
 ## 🧪 **Testing**
 
 ### **Testing Setup**
