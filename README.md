@@ -197,10 +197,6 @@ npm run serve
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Framer Motion Documentation](https://www.framer.com/motion/)
 
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 **Acknowledgments**
 
 - **React Team**: For the amazing React framework
