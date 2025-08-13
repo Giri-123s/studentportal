@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+/**
+ * Main Application Component
+ * 
+ * This is the root component of the Student Portal application.
+ * It serves as a simple wrapper that renders the AppShell component,
+ * which contains the main application logic, routing, and layout.
+ * 
+ * @component App
+ * @description Root component that initializes the application
+ * @returns {JSX.Element} The main application shell
+ * 
+ * @example
+ * // Usage in index.js
+ * <App />
+ */
+import React from 'react';
+import AppShell from './AppShell';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <AppShell />;
 }
 
 export default App;
+
